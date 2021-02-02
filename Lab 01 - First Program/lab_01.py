@@ -4,3 +4,4 @@ is
 on
 separate
 lines""")
+print("here's \nanother \nway to switch lines")
