@@ -1,30 +1,28 @@
 import arcade
 
 arcade.open_window(600, 600, "Drawing Example")
-arcade.set_background_color(arcade.color.FRENCH_SKY_BLUE)
-
+arcade.set_background_color(arcade.color.BARBIE_PINK)
 arcade.start_render()
-# mountain
-arcade.draw_triangle_filled(0, 300, 250, 550, 500, 300, arcade.csscolor.DIM_GRAY)
-arcade.draw_triangle_filled(100, 300, 250, 550, 500, 300, arcade.csscolor.DARK_GRAY)
 
-# ground
-arcade.draw_lrtb_rectangle_filled(0, 600, 300, 0, arcade.csscolor.GREEN)
+arcade.draw_circle_filled(300, 400, 100, arcade.csscolor.MEDIUM_PURPLE)
+arcade.draw_circle_filled(250, 425, 30, arcade.csscolor.WHITE)
+arcade.draw_circle_filled(350, 425, 30, arcade.csscolor.WHITE)
+arcade.draw_circle_filled(335, 425, 15, arcade.csscolor.BLACK)
+arcade.draw_circle_filled(265, 425, 15, arcade.csscolor.BLACK)
+arcade.draw_arc_filled(300, 350, 60, 100, arcade.csscolor.INDIANRED, 0, 180)
 
-# trees
-arcade.draw_rectangle_filled(400, 320, 20, 60, arcade.csscolor.SADDLE_BROWN)
-arcade.draw_triangle_filled(400, 400, 370, 320, 430, 320, arcade.csscolor.DARK_GREEN)
-arcade.draw_rectangle_filled(500, 320, 20, 60, arcade.csscolor.SADDLE_BROWN)
-arcade.draw_triangle_filled(500, 500, 450, 320, 550, 320, arcade.csscolor.DARK_GREEN)
+arcade.draw_line(250, 315, 215, 275, arcade.color.PURPLE, 10)
+arcade.draw_line(215, 275, 250, 235, arcade.color.PURPLE, 10)
+arcade.draw_line(250, 235, 215, 195, arcade.color.PURPLE, 10)
 
-# pond
-arcade.draw_ellipse_filled(300, 200, 400, 100, arcade.color.FRENCH_SKY_BLUE)
+arcade.draw_line(300, 300, 265, 260, arcade.color.PURPLE, 10)
+arcade.draw_line(265, 260, 300, 220, arcade.color.PURPLE, 10)
+arcade.draw_line(300, 220, 265, 180, arcade.color.PURPLE, 10)
 
-# sun!
-arcade.draw_circle_filled(500, 550, 30, arcade.csscolor.GOLD)
-arcade.draw_circle_filled(485, 550, 5, arcade.csscolor.BLACK)
-arcade.draw_circle_filled(515, 550, 5, arcade.csscolor.BLACK)
-arcade.draw_arc_filled(500, 535, 10, 10, arcade.csscolor.BLACK, 0, 180)
+arcade.draw_line(350, 315, 315, 275, arcade.color.PURPLE, 10)
+arcade.draw_line(315, 275, 350, 235, arcade.color.PURPLE, 10)
+arcade.draw_line(350, 235, 315, 195, arcade.color.PURPLE, 10)
 
 arcade.finish_render()
 arcade.run()
+
