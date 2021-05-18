@@ -25,7 +25,7 @@ def small_tree():
 
 def big_tree():
     # draws in a bigger tree
-    arcade.draw_rectangle_filled(500, 320, 20, 60, arcade.csscolor.SADDLE_BROWN)
+    arcade.draw_re ctangle_filled(500, 320, 20, 60, arcade.csscolor.SADDLE_BROWN)
     arcade.draw_triangle_filled(500, 500, 450, 320, 550, 320, arcade.csscolor.DARK_GREEN)
 
 
