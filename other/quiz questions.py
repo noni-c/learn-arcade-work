@@ -1,4 +1,6 @@
+# prints overall score
 overall_score = 0
+
 
 # title of quiz
 print("sport trivia")
@@ -79,12 +81,13 @@ answer_five = input("answer: ")
 if answer_five == "b":
     print("correct!")
     overall_score += 1
-    print("overall score:", overall_score)
+    print("overall score:", overall_score )
 else:
     print("incorrect.")
     print("correct answer: b")
     print("overall_score:", overall_score)
 
-# final score and closing
-print("final score:", overall_score)
+# final score, percent and closing
+final_percent = overall_score / 5 * 100
+print("final score:", overall_score, "/5", final_percent, "%")
 print("thanks for playing!")
